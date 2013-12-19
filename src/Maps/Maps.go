@@ -23,6 +23,7 @@ func main() {
 	delete(m, "k2")
 	fmt.Println("map: ", m)
 	
+	//the second returned parameter will contain FALSE if the key is invalid
 	_, prs := m["k2"]
 	fmt.Println("psr: ", prs)
 	
