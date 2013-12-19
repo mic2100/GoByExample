@@ -14,7 +14,7 @@ const s string = "constant"
 func main() {
 	fmt.Println(s)
 
-    //constants defined inside a method are only available iits scope
+    //constants defined inside a method are only available in the scope of that method
     const n = 500000000
     const d = 3e20 / n
     fmt.Println(d)
